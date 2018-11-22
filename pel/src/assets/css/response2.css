@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+/*此样式在窗口小于1024的时候生效*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+/*此样式在窗口小于768的时候生效*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+/*此样式在窗口小于640的时候生效*/
+@media only screen and (max-width: 319px) {
+
+}
+
+/*此样式在窗口小于480的时候生效*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+
+
+
+
+
+
+
+

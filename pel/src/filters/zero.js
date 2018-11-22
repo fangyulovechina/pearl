@@ -1,0 +1,1 @@
+export const zero = n => n<10?'0' + n : n

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select{margin: 0;padding: 0;border: 0;}
+table{ border-collapse:collapse;}
+body{ font-family:"Microsoft Yahei";}
+img,a{border:0; text-decoration:none;}
+ol, ul {list-style: none; }
+.clears{ clear:both;}
+a{color:#333;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out;}
+a:hover{color:#F00;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out;}
+img{ max-width:100%; height:auto;}
+.maincont{width:640px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.red{color:#f00;}
+.blue{color:#00A1FF}
+.f60{color:#f60;}
+.height1{height:60px;}
+.height2{ height:30px;}
+.height3{ height:20px;}
+.font14{ font-size:14px;}
+.font12{ font-size:12px;}
+.alignLeft{ text-align:left;}
+.alignCenter{ text-align:center;}
+.alignRight{ text-align:right;}
+.green{color:#7ABD54;}
+.orange{color:#f60;}
+.hui{color:#999;}
+header{
+	width:100%;
+	padding:0 40px;
+	height:40px;
+	position:relative;
+	background:#f1f1f1;
+	}
+.back-off{
+	position:absolute;
+	left:0;
+	top:0;
+	width:40px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:1.4em;
+	}
+.head-mid {
+  width: 100%;
+}
+.head-mid h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin:0;
+}
+.lrList2 button:hover,.lrSub input:hover,.lrSub a:hover{ background:#f60;}
+.lrSub{
+	padding:20px 10px;
+	}
+.lrSub input,.lrSub a{
+	display:block;
+	border:0;
+	padding:0;
+	margin:0;
+	font-size:1.6rem;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background:#f60;
+	color:#fff;
+	-moz-border-radius: 4px;      /* Gecko browsers */
+    -webkit-border-radius: 4px;   /* Webkit browsers */
+    border-radius:4px;            /* W3*/
+	}
+	.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+	
