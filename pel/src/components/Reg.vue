@@ -6,7 +6,7 @@
     <form action="#" method="get" class="reg-login">
       <!-- 无接口本地储存模拟 -->
       <h3>
-        已经有账号了？点此
+        已经有账号了
         <router-link class="orange" :to="{name:'login'}">登录</router-link>
       </h3>
       <div class="lrBox">
